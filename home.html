@@ -6,19 +6,26 @@
   <title>Alla Modding</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body style="background:white;">
+<body>
+
+  <!-- 🔲 Svarta linjen högst upp -->
   <div class="topbar">
     <!-- Logga i mitten -->
     <img src="din-logga.png" alt="Logga" class="logo">
 
     <!-- Knapp med logga i högra hörnet -->
-    <button class="link-btn" onclick="window.location.href='https://discord.gg/nfExTuxZMR'">
+    <button class="link-btn" onclick="window.location.href='https://discord.gg/a5rYHUaeh9'">
       <img src="ikon.png" alt="Knapp-logga">
     </button>
   </div>
 
+  <!-- 🖼️ Stor bild med text -->
+  <div class="hero">
+    <h1>Höst/Helloween hos Alla Modding</h1>
+  </div>
+
   <script>
-    // Kolla om användaren är inloggad
+    // 🔐 Kolla om användaren är inloggad
     if (localStorage.getItem("loggedIn") !== "true") {
       window.location.href = "index.html";
     }
